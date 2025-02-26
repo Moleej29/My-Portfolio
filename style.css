@@ -1,0 +1,276 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+  
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+  
+header .logo h1 {
+    margin: 0;
+}
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  
+  main {
+    padding: 40px;
+    display:flex;
+    height:600px;
+  }
+  img{
+    height:600px;
+  }
+  .intro{
+    margin-left:100px;
+    margin-top: 100px;;
+  }
+
+  .hello{
+    font-size:23px;
+}
+.name{
+    font-size:50px;
+    font-weight:bold;
+    font-family:'fira Sans',sans-serif;
+}
+.intro{
+    font-size:2.5rem;
+    }
+.moreIntro{
+    font-size:22px;
+    margin-top:23px;
+    font-family:sans-serif;
+}
+.btn-container{
+    margin-top:2.2rem;
+
+}
+.btn-container button{
+    padding:9px 14px;
+    border-radius:22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size:21px;
+    margin:0 3px;
+    cursor:pointer;
+}
+.btn-container  button a{
+    text-decoration: none;
+    color:white;
+}
+.btn-container button:hover{
+    background-color: white;
+    color:dodgerblue;
+    text-decoration: none;
+}
+.btn-container button a:hover{
+    color:dodgerblue;
+    text-decoration: none;
+}
+  
+main .intro {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.details{
+    text-align:center;
+    margin-bottom:24px;
+    
+}
+
+#about{
+    border:1px solid black;
+    text-align: center;
+    font-size:22px;
+    margin-top:23px;
+    font-family:sans-serif;
+    background-color: #5a5858;
+
+}
+#about h2{
+    font-size:40px;
+    font-weight:bold;
+    font-family:'fira Sans',sans-serif;
+}
+#projects .project {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#projects {
+    border:1px solid black;
+    text-align: center;
+    font-size:22px;
+    margin-top:23px;
+    font-family:sans-serif;
+    background-color: #5a5858;
+}
+
+
+
+#projects h2{
+    font-size:40px;
+    font-weight:bold;
+    font-family:'fira Sans',sans-serif;
+}
+#projects .box .project{
+    background-color: #f3f3f3;
+}
+.contact{
+    border:1px solid black;
+    text-align: center;
+    font-size:22px;
+    margin:0;
+    font-family:sans-serif;
+    background-color: #5a5858;
+
+
+}
+.contact p a{
+    font-size:18px;
+    color:blue;
+}
+
+
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .intro {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    img {
+        height: 400px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    header nav ul {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin: 10px 7px;;
+    }
+
+    .intro {
+        font-size: 2rem;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-container button {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    img {
+        height: 300px;
+        width: auto;
+    }
+
+    .details {
+        padding: 20px;
+    }
+
+    #projects .project {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        padding: 20px;
+    }
+
+    .hello {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    .moreIntro {
+        font-size: 18px;
+    }
+
+    img {
+        height: 250px;
+        width: auto;
+    }
+
+    .btn-container button {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    #about,
+    #projects,
+    .contact {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #projects h2,
+    #about h2 {
+        font-size: 30px;
+    }
+}
+
+
+  
+  
+ 
+  
